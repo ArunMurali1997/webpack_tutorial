@@ -33,10 +33,11 @@ A simple hello world using React.
 
 ## Packages information
 
-@babel/core - Allow us to run tool like babel
-@babel/preset-env - is a smart preset that allows you to use the latest JavaScript without needing to micromanage which syntax transforms (and optionally, browser polyfills) are needed by your target environment(s). \n
-@babel/preset-react - jsx to javascript \n
-babel-loader - This package allows transpiling JavaScript files using Babel and webpack. \n
+- @babel/core - Allow us to run tool like babel
+- @babel/preset-env - is a smart preset that allows you to use the latest JavaScript without needing to micromanage which syntax transforms (and optionally, browser polyfills) are needed by your target environment(s). <br>
+- @babel/preset-react - jsx to javascript<br>
+- babel-loader - This package allows transpiling JavaScript files using Babel and webpack. <br>
+- style-loader -Inject CSS into the DOM.
 
 ## :checkered_flag: Starting
 
