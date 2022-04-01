@@ -46,14 +46,14 @@
 
 ## :dart: About
 
-Describe your project
+A simple hello world using React. Created using Babel and Webpack
 
-## :sparkles: Features
+## :sparkles: Packages
 
 @babel/core - allow us to run tool like babel
-@babel/preset-env - conver our es6/es7 to browser understand
+@babel/preset-env - is a smart preset that allows you to use the latest JavaScript without needing to micromanage which syntax transforms (and optionally, browser polyfills) are needed by your target environment(s).
 @babel/preset-react - jsx to javascript
-babel-loader -
+babel-loader - This package allows transpiling JavaScript files using Babel and webpack.
 
 ## :checkered_flag: Starting
 
@@ -65,10 +65,16 @@ $ git clone https://github.com/ArunMurali1997/webpack_tutorial.git
 $ cd webpack-and-babel
 
 # Install dependencies
-$ yarn
+$ npm install
 
-# Run the project
-$ yarn start
+# Run the project in development mode
+$ npm run start
+
+# Build Project
+$ npm run build
+
+# Run project in development mode using devServer
+$ npm run dev
 
 # The server will initialize in the <http://localhost:3000>
 ```
@@ -77,7 +83,7 @@ $ yarn start
 
 This project is under license from MIT. For more details, see the [LICENSE](LICENSE.md) file.
 
-Made with :heart: by <a href="https://github.com/{{YOUR_GITHUB_USERNAME}}" target="_blank">{{YOUR_NAME}}</a>
+Made with :heart: by <a href="https://github.com/ArunMurali1997" target="_blank">{{YOUR_NAME}}</a>
 
 &#xa0;
 
