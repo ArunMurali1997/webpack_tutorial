@@ -8,4 +8,11 @@ module.exports = {
     rules: [{ test: /\.js$/, exclude: /node_modules/, loader: "babel-loader" }],
   },
   //   options: { devtools: "cheap-module-eval-source-map" },
+  devServer: {
+    static: {
+      directory: path.join(__dirname, "public"),
+    },
+    compress: true,
+    port: 3000,
+  },
 };
