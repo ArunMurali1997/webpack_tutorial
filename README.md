@@ -59,7 +59,7 @@ babel-loader -
 
 ```bash
 # Clone this project
-$ git clone https://github.com/{{YOUR_GITHUB_USERNAME}}/webpack-and-babel
+$ git clone https://github.com/ArunMurali1997/webpack_tutorial.git
 
 # Access
 $ cd webpack-and-babel
